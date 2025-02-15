@@ -51,7 +51,7 @@ public class SkillBuilder3
 
     public static long sumOfDivisors(long number) {
         long sum = 0;
-        for (int i = 1; i < number; i++){
+        for (int i = 1; i < number; i++) {
             if (number % i == 0) {
                 sum += i;
             }
